@@ -4,14 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Register for JSP</title>
+<title>Insert title here</title>
 </head>
 <body>
-<%
-String msg = (String)request.getAttribute("msg");
+       <%
+String msg = (String) request.getAttribute("msg");
 out.println(msg);
 %>
 <%@include file="Login.html" %>
-
 </body>
 </html>
